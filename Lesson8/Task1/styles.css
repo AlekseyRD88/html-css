@@ -1,0 +1,18 @@
+body {
+   background-color: antiquewhite;
+}
+.box-sizing {
+   border: 8px solid black;
+   margin: 16px;
+   padding: 16px;
+   width: 512px;
+   height: 128px;
+}
+.box-sizing1 {
+   box-sizing: content-box;
+   background-color: aquamarine;
+}
+.box-sizing2 {
+   box-sizing: border-box;
+   background-color: azure;
+}

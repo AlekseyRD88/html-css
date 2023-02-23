@@ -1,0 +1,24 @@
+* {
+   box-sizing: border-box;
+}
+table {
+   margin: 16px;
+}
+td {
+   width: 50px;
+   height: 50px;
+   text-align: center;
+}
+table, td {
+   border: 1px solid black;
+   border-collapse: collapse;
+}
+.border {
+   border-right: hidden;
+}
+.anotherborder {
+   border-bottom: hidden;
+}
+.oddrow {
+   background-color: black;
+}
